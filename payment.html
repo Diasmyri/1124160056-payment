@@ -67,10 +67,10 @@
                             required
                         >
                             <option value="">Pilih produk...</option>
-                            <option value="basic" data-price="50000">Paket Basic - Rp 50.000</option>
-                            <option value="premium" data-price="100000">Paket Premium - Rp 100.000</option>
-                            <option value="professional" data-price="200000">Paket Professional - Rp 200.000</option>
-                            <option value="enterprise" data-price="500000">Paket Enterprise - Rp 500.000</option>
+                            <option value="basic" data-price="47000">Salted Caramel - Rp 47.000</option>
+                            <option value="premium" data-price="38000">Mocha - Rp 38.000</option>
+                            <option value="professional" data-price="35000">Cappuccino - Rp 35.000</option>
+                            <option value="enterprise" data-price="45000">Caramel Macchiato - Rp 45.000</option>
                         </select>
                     </div>
 
@@ -559,10 +559,9 @@
                 });
             }
 
-            updateStatistics();
-        }
+            updateStatistics
 
-        // Update statistik
+        // Update statis
         function updateStatistics() {
             const totalTrans = transactions.length;
             const totalRev = transactions.reduce((sum, t) => sum + t.total, 0);
